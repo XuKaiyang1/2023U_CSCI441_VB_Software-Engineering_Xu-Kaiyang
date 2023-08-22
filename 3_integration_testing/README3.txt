@@ -6,3 +6,5 @@ This README provides instructions on how to run integration tests for the AgriSe
 2. Navigate to the project directory containing the integration_test.py file:
 cd path_to_project_directory
 3. Run the integration tests:
+python integration_test.py
+
