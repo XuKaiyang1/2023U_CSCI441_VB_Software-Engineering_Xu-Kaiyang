@@ -6,3 +6,5 @@ This README provides instructions on how to run unit tests for the AgriSense pro
 2. Navigate to the project directory containing the unit_test.py file:
 cd path_to_project_directory
 3. Run the unit tests:
+python unit_test.py
+
