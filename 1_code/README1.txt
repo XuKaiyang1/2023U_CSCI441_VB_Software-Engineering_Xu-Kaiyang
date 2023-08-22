@@ -6,3 +6,5 @@ This README provides instructions on how to run the AgriSense project code.
 2. Navigate to the project directory:
 cd path_to_project_directory
 3. Run the main script:
+python main_script.py
+
