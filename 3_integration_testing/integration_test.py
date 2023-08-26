@@ -2,8 +2,13 @@
 import unittest
 from main_script import AgriSense
 class MockSoilSensor:
+    def __init__(self):
+        self.moisture = 50  # Initial moisture level
+    
     def get_moisture(self):
-        return 45  # Mocked moisture level from the sensor
+        self.moisture -= 1  # Decrease moisture level for simulation
+        return self.moisture
+
 class TestAgriSenseIntegration(unittest.TestCase):
     def setUp(self):
         self.agrisense = AgriSense()
